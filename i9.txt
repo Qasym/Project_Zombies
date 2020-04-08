@@ -1,0 +1,5 @@
+2
+3 300
+2 Archie 40
+3 Alisa 50
+1 Ommy 30

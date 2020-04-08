@@ -1,0 +1,7 @@
+2
+5 500
+0 Anel 20
+1 Nazerke 15
+2 Nazerke 30
+3 Erik 40
+0 Alisher 40

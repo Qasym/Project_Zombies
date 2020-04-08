@@ -1,0 +1,10 @@
+2
+8 603425
+1 Nazerke 859
+2 Madina 782
+3 Zhanel 916
+3 Aibek 556
+3 Anel 978
+2 Alisher 233
+1 Serik 314
+3 Serik 707
