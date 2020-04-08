@@ -50,14 +50,14 @@ int readerForCake(string line) {
 	bool space = false;
 	string cake = "";
 	for (unsigned int i = 0; i < line.size(); i++) {
-		if (line.at(i) == ' ') space = true;
+		if (line.at(i) == ' ') space = true; //needed to ignore number of participants
 		else if (space) cake += line.at(i);
 	}
 	return stoi(cake);
 }
 
 void writeOut(int num, string answer) {
-	string address = "code outputs\\output" + to_string(num) + ".txt";
+	string address = "code outputs\\output" + to_string(num) + ".txt"; //file location may be different, in my case I've created separata directory for storing outputs
 	ofstream outputs;
 	outputs.open(address);
 	outputs << answer;
@@ -68,7 +68,7 @@ void process(int num) {
 	string data;
 	string adress;
 	ifstream listOfZombies;
-	adress = "inputs\\i" + to_string(num) + ".txt";
+	adress = "inputs\\i" + to_string(num) + ".txt"; //directory may be different if you download my code
 	
 	listOfZombies.open(adress);
 	
