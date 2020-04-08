@@ -28,4 +28,57 @@ TASK
 {{Zombie’s name}} is the winner! Ladder Zombies are the best!
 {{Zombie’s name}} is the winner! Newspaper Zombies are the best!
 {{Zombie’s name}} is the winner! Dancing Zombies are the best!
-3. 
+3. Finish whoIsTheWinner() method for identifying the winner zombie.
+
+INPUT FORMAT Input is handled for you. Refer to the main method for more information. //It was not handled for me, I did everything from scratch
+OUTPUT FORMAT Output is handled for you. Refer to the main method for more information.
+
+SAMPLE INPUT 1 
+2          <-- Input type
+3 300           //In my code I have ignored the given number of participants
+2 Archie 40     //300 / 40 = 7 seconds; 20 grams left, but every 6 seconds eats 30 grams of cake, thus result == 7;
+3 Alisa 50      //300 / 50 = 6 seconds; result == 6; //winner
+1 Ommy 30       //300 / 30 = 10 seconds; each 4 seconds eats 20 grams of cake result == 8;
+
+SAMPLE OUTPUT 1 
+Competition with 300 grams of cake: 
+Alisa is the winner! Dancing Zombies are the best!
+
+EXPLANATION 1 
+300 – given weight of cake to finish (in grams) 
+3 – number of competitor(s) 
+2 – Type of zombie (from the table above: 2 - NewspaperZombie) 
+Archie – Name of zombie 
+40 – speed of zombie (how much weight of cake can eat in seconds. Ex: 40 gram/s)
+
+SAMPLE INPUT 2 
+1     <-- Input type
+0 Berik 536
+
+SAMPLE OUTPUT 2 
+Berik is the winner! Ancient Zombies are the best!
+
+SAMPLE INPUT 3 
+1 
+1 Erik 162
+
+SAMPLE OUTPUT 3 
+Erik is the winner! Ladder Zombies are the best!
+
+SAMPLE INPUT 4 
+1 
+2 Dias 417
+
+SAMPLE OUTPUT 4 
+Dias is the winner! Newspaper Zombies are the best!
+
+SAMPLE INPUT 5 
+1 
+3 Nazerke 141
+
+SAMPLE OUTPUT 5 
+Nazerke is the winner! Dancing Zombies are the best!
+
+Input type 1: checks the implementation of classs
+Input type 2: checks the implementation and whoIsTheWinner() method
+
