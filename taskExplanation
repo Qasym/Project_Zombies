@@ -1,0 +1,31 @@
+PROBLEM STATEMENT Imagine, you are the organizer of Cake competition in Zombie-Land. 
+There are 4
+kind of zombies in Zombie-Land: “Zombie” is an ancient resident of Zombie-Land “Ladder Zombie”, “Newspaper Zombie”, “Dancing Zombie” are grandsons of “Zombie”.
+Difference between grandsons of “Zombie” is that each of them has their own super-powers.
+
+Type  TypeName          Power
+0     Ancient Zombie    No super power
+1     Ladder Zombie     Every 4 seconds eats 20 grams of cake
+2     Newspaper Zombie  Every 6 seconds eats 30 grams of cake, BUT every 10 seconds reads a newspaper and does not eat ANY cake
+3     Dancing Zombie    Every 3 seconds eats 25 grams of cake, BUT every 7 seconds dances and does not eat ANY cake
+
+Note that all of them have their initial cake eating speed (explained below).
+Winner in Cake competition: In a Cake competition there are N zombies, you need to find which zombie will finish eating their cake faster than other zombies.
+Notes: 
+1. No default speed, it will be given as input for every zombie participant. 
+2. For more information check out main() method. 
+3. It is guaranteed that there is only one winner.
+
+Zombies of type 1,2,3 are children of class 0. 
+Each class should have member name and speed, a constructor (Zombie(string name, int speed){}), toString() method, you may add additional methods for calculations
+
+//Actually this task was given as a midterm problem for java coders(at another university), thus I can't show code here, I can only describe what each method does.
+
+TASK 
+1. Complete Zombie, LadderZombie, NewspaperZombie, DancingZombie classes
+2. Modify toString() method in the following manner (refer to sample input and output):
+{{Zombie’s name}} is the winner! Ancient Zombies are the best!
+{{Zombie’s name}} is the winner! Ladder Zombies are the best!
+{{Zombie’s name}} is the winner! Newspaper Zombies are the best!
+{{Zombie’s name}} is the winner! Dancing Zombies are the best!
+3. 
